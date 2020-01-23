@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stop Watch</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <!-- /Custom CSS -->
+
+    <!-- Sematic UI CSS -->
+    <link rel="stylesheet" href="./assets/css/semantic.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css" /> -->
+    <!-- /Sematic UI CSS -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-webfont.ttf">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-webfont.woff">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-webfont.woff2">
+    <!-- /Font Awesome -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- /Font Awesome -->
+
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- /Bootstrap CSS -->
+</head>
+<body>
+    <br>
+    <div class="ui container">
+            <div class="ui center aligned segment">
+                <div>
+                    <h1>Stop Watch</h1>
+                </div>
+                <div id='showTime'>
+                    00:00:00
+                </div>
+                <div>
+                    <span>
+                        <button id="start" name="start" class="ui inverted green button">Start</button>
+                        <button id="stop" name="stop" class="ui inverted orange button">Stop</button>
+                        <button id="lap" name="lap" class="ui inverted secondary button">Lap</button>
+                        <button type="reset" id="reset" name="reset" class="ui inverted red button">Reset</button>
+                        <button id="removeLaps" name="removeLaps" class="ui inverted primary button">Remove All Laps</button>
+                    </span>
+                </div>
+                <div id='laps'>
+
+                </div>
+            </div>
+
+    </div>
+
+    <!-- jQqery -->
+    <script src="./assets/js/jquery-3.4.1.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+    <!-- /jQqery -->
+
+    <!-- Sematic UI JS -->
+    <script src="./assets/js/semantic.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.js"></script> -->
+    <!-- Sematic UI JS -->
+
+    <!-- Bootstrap JS -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script> -->
+    <!-- /Bootstrap JS -->
+
+    
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+#showTime{
+    font-size: 4em;
+    padding: 10pt;
+    margin: 20pt;
+}
+
+#laps{
+    margin-top: 20pt;
+}
+div .ui.label{
+    margin: 5pt;
+    padding: 10pt;
+}
+.ui.inverted.red.button{
+    margin-top: 10pt;
+}
